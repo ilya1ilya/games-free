@@ -1,0 +1,16 @@
+.genres-container {
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__select {
+    width: 100%;
+  }
+}

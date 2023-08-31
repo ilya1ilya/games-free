@@ -1,0 +1,24 @@
+.header {
+  width: 100vw;
+  height: 48px;
+  margin-bottom: 100px;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  & h3 {
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 10px;
+  }
+}

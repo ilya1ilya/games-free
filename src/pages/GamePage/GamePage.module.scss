@@ -1,0 +1,12 @@
+.game-page-container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  &__title-and-back-button {
+    display: flex;
+  }
+}

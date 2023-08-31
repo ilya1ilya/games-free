@@ -1,0 +1,7 @@
+.settings-container {
+  width: 300px;
+
+  @media (max-width: 480px) {
+    margin: 10px 0;
+  }
+}

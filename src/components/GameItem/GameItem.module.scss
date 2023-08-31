@@ -1,0 +1,49 @@
+.game-item-container {
+  width: 100%;
+  height: 69px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  background-color: #142432;
+  font-size: 14px;
+  color: white;
+
+  display: flex;
+
+  & img {
+    height: 69px;
+    flex: 1;
+    border-radius: 6px 0 0 6px;
+  }
+
+  &__title-and-genre {
+    margin-left: 5px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__release {
+    flex: 1;
+    color: grey;
+    font-size: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__publisher {
+    flex: 2;
+    color: grey;
+    font-size: 13px;
+    line-break: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 480px) {
+  }
+}

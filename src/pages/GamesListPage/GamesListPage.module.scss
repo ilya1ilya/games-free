@@ -1,0 +1,13 @@
+.container {
+  width: 1060px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 480px) {
+    flex-direction: column-reverse;
+  }
+}
